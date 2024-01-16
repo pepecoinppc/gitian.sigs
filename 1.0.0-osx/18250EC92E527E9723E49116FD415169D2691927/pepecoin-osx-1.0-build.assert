@@ -1,14 +1,14 @@
 --- !!omap
 - out_manifest: |
-    f400efef01b84de28ac85c3433a6fa24e38c1f8111be1ee384fa930e16b8647d  pepecoin-1.0.0-osx-unsigned.dmg
-    96a1bbb297de91b120253deabd730a36d0e6a7bea436cc0a58da2ea4357fd9f8  pepecoin-1.0.0-osx-unsigned.tar.gz
-    a4495b4e9229f4026ba0c9a79c85d5d0b26c00f1d16f6713aa1f0cbdd0762d12  pepecoin-1.0.0-osx64.tar.gz
-    4e8da06ffe9d7420f38c83343aad1b99046a161176f3d4416b55100ea760fbb8  src/pepecoin-1.0.0.tar.gz
+    93070f49570f11673ad8d2cc29e4b7847bc8b054e4653eb0ac071ad8de6a5f32  pepecoin-1.0.0-osx-unsigned.dmg
+    328d9dcaebbf7fc590ad42c6cd8cd26f081f495eb02e62961a0f73865f63a687  pepecoin-1.0.0-osx-unsigned.tar.gz
+    1397a03d7709a56d09c771a5708d0a5341456519d9491f718c08851a2d6706c1  pepecoin-1.0.0-osx64.tar.gz
+    294bfba4b062910826fe4220f5f933991e66d1a4811b0f30d3a0f31c82fa8140  src/pepecoin-1.0.0.tar.gz
 - in_manifest: |-
     42a4ab891d253e54b8c2c523a18591d7a410672c1c85ee2c553b0e9a2158f30b  pepecoin-osx-1.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
     c848aadac0816268aeb9dde7cefdb54bf24f78e664a19e97e74c92d3be1bb147  lief-0.12.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    git:0a1ea5403d489046423a18704de1a11cac477dbc pepecoin
+    git:929f2004564caa3b716cce21fdd6342eb7d45e6b pepecoin
 - base_manifests: !!omap
   - focal-amd64: |
       5f7ea9d1d52a2a9c349468f89d160230e21c8542faed1b1a97c23bce873e17b4  adduser_3.118ubuntu2_all.deb
@@ -20,9 +20,9 @@
       0dbbeef6e01eba2244b25baaee0cdc43c23bbd21987f80c39c23556e7e9d54f5  base-files_11ubuntu5.7_amd64.deb
       96477a0b48c43358a7a2fcc958a4271424c16db6594719b05ae90e89a508772c  base-passwd_3.5.47_amd64.deb
       58e03b3be46c54eeb22ede348baf2b8251a6f3e0ce4f0bf0191c516f90f1f283  bash_5.0-6ubuntu1.2_amd64.deb
-      a7c5a796b65586003d280871a67b807a6c5521c440514de56bc1ed9bf365c200  binutils-common_2.34-6ubuntu1.7_amd64.deb
-      f8a8b89cef726f640a0846793e9c66755fbe6c606c920bd2fb42e7ca0d3949bc  binutils-x86-64-linux-gnu_2.34-6ubuntu1.7_amd64.deb
-      53a688b909a792503ded67e99e3667a7fe5fcd993dfda7f9f8a9e14c7b39feea  binutils_2.34-6ubuntu1.7_amd64.deb
+      2a3ea3bc7a785801e7b9d40fab831035f7b12783f542f6f04ddbf70fc74ac924  binutils-common_2.34-6ubuntu1.8_amd64.deb
+      4f6bb619d4ffe44767f6c683a2a03179aaacce31fc78f9bde6553761b7877ba2  binutils-x86-64-linux-gnu_2.34-6ubuntu1.8_amd64.deb
+      cdf3768f71ac50d10ff902540119026ff5c239f650d532228df84275f0cd5f8b  binutils_2.34-6ubuntu1.8_amd64.deb
       5dcf61a0949d12ad900f62b684aaf429f278a7a418123c91e8839eeb363521e7  bsdmainutils_11.1.2ubuntu3_amd64.deb
       6c53cc48d94727420e5ff25efb3ed732d57b8c1b65abce0cc99c5a70b49f591c  bsdutils_1%3a2.34-0.1ubuntu9.4_amd64.deb
       50be2bfb66a8ce034179c7d95e5f177cce714e897028e1f4cacb564997b1c9e6  build-essential_12.8ubuntu1.1_amd64.deb
@@ -91,7 +91,7 @@
       d916bb73d9a160ccaa48d997c823af528cb6b4174c5234c744b40ae5aa85ce98  libattr1_1%3a2.4.48-5_amd64.deb
       9fa4a291df5682f5fee12aacdddd9ed09445c352c80d8a1af36056866e4b4906  libaudit-common_1%3a2.8.5-2ubuntu6_all.deb
       fb539f4d848d00e9472444285831e0204b9e92e7ee65dbb72b56e144a6dbedf8  libaudit1_1%3a2.8.5-2ubuntu6_amd64.deb
-      2a76069ff68f3d8d9a896eef21f53ba48e9f0ed6e809eac43799a702114ed8a7  libbinutils_2.34-6ubuntu1.7_amd64.deb
+      f3b91bb00080b6f7d008a0d543167b4a091359693cc5448f588e35adb1552340  libbinutils_2.34-6ubuntu1.8_amd64.deb
       439989180dde30024afc8b1427fe8abbeb3ff64bef5a2d5d012a72ab05f9a75a  libblkid1_2.34-0.1ubuntu9.4_amd64.deb
       5b64add5ad40cc69ebb9bc663b7ec39c6ef0a3efb6c283ff8c8e4b84017ead74  libbrotli1_1.0.7-6ubuntu0.1_amd64.deb
       4f668025fe923a372eb7fc368d6769fcfff6809233d48fd20fc072917cd82e60  libbsd0_0.10.0-1_amd64.deb
@@ -112,8 +112,8 @@
       25ad33e306bf4ed08fbd39bf32db643f189c6ed1ec2acb19553d6a2bf69e590d  libcom-err2_1.45.5-2ubuntu1.1_amd64.deb
       f0a41d8e8cf379dbbdfc43169f34851ed452b3581e72c6654f2e290caf4e1b20  libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb
       231b4dbbe5865775f118cfa61394f1e16fa7102b6953a327e672499a20876d73  libcrypt1_1%3a4.4.10-10ubuntu4_amd64.deb
-      2e66184f1045e0130f2a15b1a26ec3b5fd05aca5fe7963d18d7d11e10709f3db  libctf-nobfd0_2.34-6ubuntu1.7_amd64.deb
-      efffdfec0e6b9f79195783e0fb2436f0ba97badde0957f4a9937ce5abfd34048  libctf0_2.34-6ubuntu1.7_amd64.deb
+      767b46282f1aa5e214e94e532421c3a37d0a87f9a39feb80dc90cef4248bef86  libctf-nobfd0_2.34-6ubuntu1.8_amd64.deb
+      b8f18a839a5c27b076026787696c36bc4335e2ad97fb30832c286fb17aa69c9f  libctf0_2.34-6ubuntu1.8_amd64.deb
       40bc0f33fba1f8997d984aabab1494bf657e43a14b2b0dfc165aa34d22d7ba02  libcurl3-gnutls_7.68.0-1ubuntu2.21_amd64.deb
       1b099870ef57760104faa5b1c6ed0edd398ff78b0a7885890185f3b203222739  libcurl4_7.68.0-1ubuntu2.21_amd64.deb
       521d1e41b2362abd51b65e5889529ffe0f83442498b81fd2628c44ed43c7abb6  libdatrie1_0.2.12-3_amd64.deb
@@ -327,7 +327,7 @@
       0a115018c9d5341c4f4975e1a20877a2040d11b26fbe61b95045fa0da430e6f7  sudo_1.8.31-1ubuntu1.5_amd64.deb
       ab9c644c65a6b48968991801f4e2846bbfcb1393e0dcbc656a1aa26003b6c57b  sysvinit-utils_2.96-2.1ubuntu1_amd64.deb
       7387a202f0c71a5638c9514f854f2efd9809e24fa5212d1c7227b02bd06be5ec  tar_1.30+dfsg-7ubuntu0.20.04.4_amd64.deb
-      e6f6c483a755f2963df77b66d90b5304649693be08fab4f0b8d09094ffc45383  tzdata_2023c-0ubuntu0.20.04.2_all.deb
+      26081784b2919bd1d45e7db86994614bf1aa59f9bf1c65f78267411a13900170  tzdata_2023d-0ubuntu0.20.04_all.deb
       2684fae16e90a9ff3cb4dc08a8af5bd9973d38763b60e5f458dea0b403a39788  ubuntu-keyring_2020.02.11.4_all.deb
       0fd6782ac99f3d9814960edefd5cceaa84f3a33feec6a149f7edf59431f3a3ac  ucf_3.0038+nmu1_all.deb
       cff36f0662e137a8bbd0554c8b7be8fcb3870233659d10166b6a51f828e4bfed  util-linux_2.34-0.1ubuntu9.4_amd64.deb
