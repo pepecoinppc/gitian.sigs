@@ -1,14 +1,14 @@
 --- !!omap
 - out_manifest: |
-    93070f49570f11673ad8d2cc29e4b7847bc8b054e4653eb0ac071ad8de6a5f32  pepecoin-1.0.0-osx-unsigned.dmg
-    328d9dcaebbf7fc590ad42c6cd8cd26f081f495eb02e62961a0f73865f63a687  pepecoin-1.0.0-osx-unsigned.tar.gz
-    1397a03d7709a56d09c771a5708d0a5341456519d9491f718c08851a2d6706c1  pepecoin-1.0.0-osx64.tar.gz
-    294bfba4b062910826fe4220f5f933991e66d1a4811b0f30d3a0f31c82fa8140  src/pepecoin-1.0.0.tar.gz
+    102e69659c601ec3ccaed143885a5cacc6fdcd64c0e4a83c63d947b3cd32fef8  pepecoin-1.0.0-osx-unsigned.dmg
+    5faee94c3a9624f8542737f12a872e960ad76a03579beed0743aef4a48853419  pepecoin-1.0.0-osx-unsigned.tar.gz
+    5636c4147ae5eb20b54e4f4a5b85199208d34c1763b979ccec5d7b4b266ff342  pepecoin-1.0.0-osx64.tar.gz
+    a365ad4a7680c80cd923671ee5264293b338600167e926d0169538dca25e5b33  src/pepecoin-1.0.0.tar.gz
 - in_manifest: |-
     42a4ab891d253e54b8c2c523a18591d7a410672c1c85ee2c553b0e9a2158f30b  pepecoin-osx-1.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
     c848aadac0816268aeb9dde7cefdb54bf24f78e664a19e97e74c92d3be1bb147  lief-0.12.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    git:929f2004564caa3b716cce21fdd6342eb7d45e6b pepecoin
+    git:4f6165f8ebb6bc349309782a29966d92610ee368 pepecoin
 - base_manifests: !!omap
   - focal-amd64: |
       5f7ea9d1d52a2a9c349468f89d160230e21c8542faed1b1a97c23bce873e17b4  adduser_3.118ubuntu2_all.deb
@@ -17,7 +17,7 @@
       f554697f01a6267127ef20e6eae4e8ed983507c816475ac72dbb8be26d94c796  autoconf_2.69-11.1_all.deb
       a517394d9dce4a4cc734e45d5b9b5f17fe43d6682843f480b942426736d12050  automake_1%3a1.16.1-4ubuntu6_all.deb
       716a1922077df772dcd8d4e462e1c5a9570c48871cbee062c23ae348b3a08fa1  autotools-dev_20180224.1_all.deb
-      0dbbeef6e01eba2244b25baaee0cdc43c23bbd21987f80c39c23556e7e9d54f5  base-files_11ubuntu5.7_amd64.deb
+      f92bb87ad4347c4b9c33c3e4f013a483ac637d65e56d330f429b0be7c1739a74  base-files_11ubuntu5.8_amd64.deb
       96477a0b48c43358a7a2fcc958a4271424c16db6594719b05ae90e89a508772c  base-passwd_3.5.47_amd64.deb
       58e03b3be46c54eeb22ede348baf2b8251a6f3e0ce4f0bf0191c516f90f1f283  bash_5.0-6ubuntu1.2_amd64.deb
       2a3ea3bc7a785801e7b9d40fab831035f7b12783f542f6f04ddbf70fc74ac924  binutils-common_2.34-6ubuntu1.8_amd64.deb
@@ -26,11 +26,13 @@
       5dcf61a0949d12ad900f62b684aaf429f278a7a418123c91e8839eeb363521e7  bsdmainutils_11.1.2ubuntu3_amd64.deb
       6c53cc48d94727420e5ff25efb3ed732d57b8c1b65abce0cc99c5a70b49f591c  bsdutils_1%3a2.34-0.1ubuntu9.4_amd64.deb
       50be2bfb66a8ce034179c7d95e5f177cce714e897028e1f4cacb564997b1c9e6  build-essential_12.8ubuntu1.1_amd64.deb
+      5b3c85e5812692e647fe5bd370e21a2f078dc1022fa7aad71a01a7171bb878ea  busybox-initramfs_1%3a1.30.1-4ubuntu6.4_amd64.deb
       9201778f5a3bd4ff685d41cd677660129e57c544b7526f20ff8c48318c63dbe8  bzip2_1.0.8-2_amd64.deb
       ec23973dbb9317eb746d44aa6795556ee591d75eb9f7292a6672e69f215afcb9  ca-certificates_20230311ubuntu0.20.04.1_all.deb
       c0f255c0330abd8be6ab8d6621ab7d052c74337ac09ec835f51ef2ef993aa557  cmake-data_3.16.3-1ubuntu1.20.04.1_all.deb
       daccb01e9d01fbf9533fab486319653b9832a7be118b0e57f6b4362e0ad6f6de  cmake_3.16.3-1ubuntu1.20.04.1_amd64.deb
       99aa50af84de1737735f2f51e570d60f5842aa1d4a3129527906e7ffda368853  coreutils_8.30-3ubuntu2_amd64.deb
+      23393102b6baab91f23849bc792952f29303081c0d09a722e4d5e719ed3580e3  cpio_2.13+dfsg-2ubuntu0.3_amd64.deb
       ed10bd0ab893389c21622d01415991466e5b20a0c57732308884180ec1f0a6e8  cpp-9_9.4.0-1ubuntu1~20.04.2_amd64.deb
       6a29410b6f9a6f1f6b3fe93d0b994e56293126962950bb1c9bbf0a8909044b03  cpp_4%3a9.3.0-1ubuntu2_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
@@ -74,9 +76,13 @@
       e5d04257db2d054a0d4a5636ee89b56ffeb6f9aee5759ef64753ab737cc2c935  imagemagick-6.q16_8%3a6.9.10.23+dfsg-2.1ubuntu11.9_amd64.deb
       91b12167a965d8e8a6f08b249ffe386d8eab09a2362176fbb2d4436e69f2e397  imagemagick_8%3a6.9.10.23+dfsg-2.1ubuntu11.9_amd64.deb
       5628715888e797fcddf2c5b3c3923b0a76dad78916025a52e19375703dd9586c  init-system-helpers_1.57_all.deb
+      7039fdfd88dd03baae1f5f2bfd97f7969d3374a212a7a7945e97e7760307497d  initramfs-tools-bin_0.136ubuntu6.7_amd64.deb
+      3f5abbc587ca7d5ce37440ff1bd2be9866bd1218c1d944fe4350b0fe3404d667  initramfs-tools-core_0.136ubuntu6.7_all.deb
+      9b90d04247865dc1cb3e6652dd3b1656371537c00fb8ae8be368774cdb716925  initramfs-tools_0.136ubuntu6.7_all.deb
       ec3945d17bea3998f3915f021c0012e5be5bceef97f562f93a661b58e65fddb7  intel-microcode_3.20231114.0ubuntu0.20.04.1_amd64.deb
       31066ceac0a040b114fc3cd03b012a483d6f5572699c71fda4140f8a6c3bb821  iucode-tool_2.3.1-1_amd64.deb
       9296a868cfa38c72f93a90618594db27ef7f3a64b243cb74e077c2e9dffcae64  iw_5.4-1_amd64.deb
+      7e6174462f871c4ce4b44e06f1e12f03dbc676babd81df02c2173b4eb0947a1d  klibc-utils_2.0.7-1ubuntu5.1_amd64.deb
       d0ffafd10b74f859428225798615ba3d0cfcfa1440e1b6e223a62267a8e635d3  kmod_27-1ubuntu2.1_amd64.deb
       16d9b11a1a13a55644d1366a0a9b65f9274b29afc5ccbaed6d573ecdea9136a9  language-pack-en-base_1%3a20.04+20220818_all.deb
       e4af8bfcd3ab3bfe9c24c84fae98c120fa3f6661a473dab5fc78e65dbf2f63d5  language-pack-en_1%3a20.04+20220818_all.deb
@@ -146,7 +152,7 @@
       e3d075f53f6222120034a39c66ea0e7f3a461695726f229829dfcc2731763f55  libgdk-pixbuf2.0-common_2.40.0+dfsg-3ubuntu0.4_all.deb
       dd181a187f052200fcac1d80671d5df2d183be5706db772472dc605f5f8a8f89  libglib2.0-0_2.64.6-1~ubuntu20.04.6_amd64.deb
       541dc5050b0cecdecbfe155641588ba08da645b61b11fc4bcb045f2f4773da43  libgmp10_2%3a6.2.0+dfsg-4ubuntu0.1_amd64.deb
-      7ab1124c64324530f19be8eea20cefd6c32724334078efb688f1529ab196ef3c  libgnutls30_3.6.13-2ubuntu1.9_amd64.deb
+      0e11ab42085fffeecdb9700288e63e59a883d1c081a37c878e3b807d5f8d6894  libgnutls30_3.6.13-2ubuntu1.10_amd64.deb
       1748606410f62d406588ff7c84ec6e0664cca48d7ecac0b539fecd51ac2219bd  libgomp1_10.5.0-1ubuntu1~20.04_amd64.deb
       4744163850851f60080a8b0fdf3dd3258d93114bd83f8024414737a2826da7fe  libgpg-error0_1.37-1_amd64.deb
       e4ae794210c589fedb1c008429188066259e5bc61657747a4ecd9502f31b3294  libgraphite2-3_1.3.13-11build1_amd64.deb
@@ -171,6 +177,7 @@
       1c98c4830b5de790adc6fe416a3997a687b38f26fa0066c0a875cded94ada52b  libjte2_1.22-3build1_amd64.deb
       046e292eb3beb82cc83365a4580a2c0448b484e8ce47f6057771cf44ccc9be45  libk5crypto3_1.17-6ubuntu4.4_amd64.deb
       5a098b2585e549b997a979c38e5bfcc07a5df3efef4753e41ad4dab1122d576c  libkeyutils1_1.6-6ubuntu1.1_amd64.deb
+      fbd67d5c1ef8ada44619b5233ce819e6b44ed376778a34aa2f0b677558cf4d43  libklibc_2.0.7-1ubuntu5.1_amd64.deb
       e21e9ac1e5f4c05b6dc82ffe71357ccffb32f19d351c9877fbc740b6e8bf6721  libkmod2_27-1ubuntu2.1_amd64.deb
       4004189e6550a92e912cbffb652d129ae40f7356e1b4211b5858ec3c0c2a2a2c  libkrb5-26-heimdal_7.7.0+dfsg-1ubuntu1.4_amd64.deb
       4457de873b2ad6f81311f6464568321751a4a8382526155f8560ec04ccfb9e94  libkrb5-3_1.17-6ubuntu4.4_amd64.deb
@@ -198,10 +205,10 @@
       2301b7012fa8b3ec41bb1971e6d501c3e985a1c6b708ca3728a9eb0587c352de  libnl-3-200_3.4.0-1ubuntu0.1_amd64.deb
       e8ec98184284ed22598e6da0285da0ea74cd6a53a334158ecb1721457a1fd0c9  libnl-genl-3-200_3.4.0-1ubuntu0.1_amd64.deb
       e6c415cef9c7e829e43cac6cfea7371222005650cf4751eee22fd19710d4fa8e  libp11-kit0_0.23.20-1ubuntu0.1_amd64.deb
-      af66fcfb3fc40148b1a6dd225c082aafafc73fc4f99f3dcbed9164ceef259939  libpam-modules-bin_1.3.1-5ubuntu4.6_amd64.deb
-      def254ba0837b6b9d293549c5dbe86514f90bb4dc185e123dfd24c0d63e7915c  libpam-modules_1.3.1-5ubuntu4.6_amd64.deb
-      5cfab383d58433a0a7628b847113c7dc5696d8ea59a443fed1d957a16de9bdd7  libpam-runtime_1.3.1-5ubuntu4.6_all.deb
-      ffa086748f406d3fe91f4f4c9bd15df4bc133d8e857756ca78566d35e1a3ad2d  libpam0g_1.3.1-5ubuntu4.6_amd64.deb
+      644e9b03c46d7b99d6bcfe6105d57eeeb00086273081633f5e89951df4600df3  libpam-modules-bin_1.3.1-5ubuntu4.7_amd64.deb
+      aef66cca70cd3b384cc12d385076fc793206be25ffaf7ff52334e14f95d03e0e  libpam-modules_1.3.1-5ubuntu4.7_amd64.deb
+      9e28174f564168fc1befe0ac07638a648ee472b4ecc72e3f8e7722c9802b8d29  libpam-runtime_1.3.1-5ubuntu4.7_all.deb
+      afc769e31f70c5ccfd9f184019b382c0e4455b0b6494704ec010b811baeea511  libpam0g_1.3.1-5ubuntu4.7_amd64.deb
       5ab27de09a2f0dbd0a4959c7427cfa512ca1e01549fe0767b6e0db8d00689f3b  libpango-1.0-0_1.44.7-2ubuntu4_amd64.deb
       0c054d4e2c7b9ee1e90c96a76d7ccc8811f3425b9a47be56e93a72d33dac2071  libpangocairo-1.0-0_1.44.7-2ubuntu4_amd64.deb
       8583d3dd94b202150db29fb6a48d587bf505dac63bb9c3414df00f195d4b7722  libpangoft2-1.0-0_1.44.7-2ubuntu4_amd64.deb
@@ -238,12 +245,12 @@
       34e2ebb3f190223baee37fc2a8cbba25dfefbe6183a6f92d516b505a769ad777  libsmartcols1_2.34-0.1ubuntu9.4_amd64.deb
       5a680b1560a6cf69d8bca1c0265293cb3654f5c43390c61fbd862a746ab97614  libsqlite3-0_3.31.1-4ubuntu0.6_amd64.deb
       42e3fb438b57e98cb1a598a1b6479287661c732679a2c9498b0aee4a414db5d0  libss2_1.45.5-2ubuntu1.1_amd64.deb
-      03a0936bcdd6b6ae742eb4bd1521ed9c6c1a1415f4451cb4850c820494fae99f  libssh-4_0.9.3-2ubuntu2.4_amd64.deb
+      a1a7f1ebb227c7c24c63d448e5b6107893b1747a1a5233f6a85146ea140a68b0  libssh-4_0.9.3-2ubuntu2.5_amd64.deb
       0b3251aee55db6e20d02f4b9a2b703c9874a85ab6a20b12f4870f52f91633d37  libssl1.1_1.1.1f-1ubuntu2.20_amd64.deb
       e8c637e8f5a87f05b3f1dad0e020cc3763c384f5bb0fc159f69277645a2444df  libstdc++-9-dev_9.4.0-1ubuntu1~20.04.2_amd64.deb
       7f9222342d3551d063bf651319ec397c39278eeeb9ab5950ae0e8c28ef0af431  libstdc++6_10.5.0-1ubuntu1~20.04_amd64.deb
       628b82a4bddf18b3c2171cadc9d3c3ae0df7a4622e169e1d4a655260de831a2a  libsvn1_1.13.0-3ubuntu0.2_amd64.deb
-      6f3174313f7a4b35bb8c3b3f5f3a8d710889c65b80219a186ad2a439ac4d1e2b  libsystemd0_245.4-4ubuntu3.22_amd64.deb
+      147da635fb19d7e2a25e3f9f26ee4de719704dd14decb84ed43a97c2454a015b  libsystemd0_245.4-4ubuntu3.23_amd64.deb
       f4d9cbcc2c915a58557ecf3ea6ffb42321c8a2f444945af57e64d9ce18744329  libtasn1-6_4.16.0-2_amd64.deb
       4789eb1d23fc72f9b1cb18649f5dede84442bce2ceb829b0f371aa248ba51405  libthai-data_0.1.28-3_all.deb
       4e4268c7bdaf33c64cf69a15684faccb7ec7520c04b805e525d7b2b47bd65642  libthai0_0.1.28-3_amd64.deb
@@ -254,7 +261,7 @@
       5a2b4086ed322ba06fe8fd5deca92cd2485756bf9f2e9db583905cd3d1ac8a6f  libtool_2.4.6-14_all.deb
       beb24444d608f14bb40c36c7e6c100e7fbdf5bff555d32563bd33c2779ebe91a  libtsan0_10.5.0-1ubuntu1~20.04_amd64.deb
       662e52a5e25bea1e1e5ba55a9a96a37aabec554ae997eb41a893f82e1ce1f0c0  libubsan1_10.5.0-1ubuntu1~20.04_amd64.deb
-      eb5f4d8d216e280428642d4c396f51d43f57996ba2c09977d4d094fc1dac4a57  libudev1_245.4-4ubuntu3.22_amd64.deb
+      a9521025f12a45a91ed198fa10221e149caaba0f1156e07a641ebf02a5449805  libudev1_245.4-4ubuntu3.23_amd64.deb
       4ccfbc1e3a1cbc42616bd4fd407e01eb1434996c8500ac2fbccb7a2e1bcb166a  libunistring2_0.9.10-2_amd64.deb
       f48129c416f228c6b89e6d6f9a018836d1ff149095a5367a23c7f84a78c1ace2  libutf8proc2_2.5.0-1_amd64.deb
       c489687ed296c92ce173c39173f4c12d3f0beeba45d23d369dc8e44961ef2767  libuuid1_2.34-0.1ubuntu9.4_amd64.deb
@@ -277,15 +284,19 @@
       b5e37d1ec9d1162a24a055a7fa15788617b106742622a49cf2a7b048d7259209  linux-base_4.5ubuntu3.7_all.deb
       d8b92237a0ef76127f151e56f18ebc00155c5b39897c5db7e801ee8af660cbfb  linux-firmware_1.187.39_all.deb
       0db1ce03dbe71ae2e343cc63ba40663006f676f64ed8a14ac4c66e29e57eb41e  linux-image-5.4.0-169-generic_5.4.0-169.187_amd64.deb
-      fdd2abe4bc7fa691537edbbe775545950e18567591c7fdf9386064aa034ca86c  linux-image-generic_5.4.0.169.167_amd64.deb
-      a26b198a4a04c812739e86463bd716a64137fc9ff33fd297ea6db282288295c5  linux-libc-dev_5.4.0-169.187_amd64.deb
+      f5c10edc06c753c71506e729ba01381270851537d62db1e7c1ec5ac22c6c6bad  linux-image-5.4.0-170-generic_5.4.0-170.188_amd64.deb
+      f5c05a57f8ebf6c422466817dca4e695983a13cc4633053ec82e836d01f945fd  linux-image-generic_5.4.0.170.168_amd64.deb
+      4dca4f06f5315b4df76a5c0d7f644af00204e2a11f8c632615d3e570ee39f9e2  linux-libc-dev_5.4.0-170.188_amd64.deb
       a4992c42b0d928c3e3806ba908908c92bc6484d42fa78752e7f543f395655174  linux-modules-5.4.0-169-generic_5.4.0-169.187_amd64.deb
+      c02cf713da9a3770e04f4011213e45024c964107e81e15243957c7664b64ebb4  linux-modules-5.4.0-170-generic_5.4.0-170.188_amd64.deb
       9b81889ee62b922dd12b21d3770d54c1435cae847b8bd5392830ca636ae935c7  linux-modules-extra-5.4.0-169-generic_5.4.0-169.187_amd64.deb
+      cd1cbe22ec3d0a8f6678ff870ac191d7c5be0bbbc8f6437150a5b3b7a8fccf09  linux-modules-extra-5.4.0-170-generic_5.4.0-170.188_amd64.deb
       47e09743536de9cb6584b19bf16a30951c9181c8901c45b5afa570160fdbc1cf  locales_2.31-0ubuntu9.14_all.deb
       e1f0f20145c87f2ab3a64217c407f11b7762c60768494326319c2a53598d4c1c  login_1%3a4.8.1-1ubuntu5.20.04.4_amd64.deb
       96a173aa14bdb659ae7b3c1230401c10752b810dfbdcc3b10c7cd79be1313c9c  logsave_1.45.5-2ubuntu1.1_amd64.deb
       eb40f6e96189cbde27a9cc4681f7ba7b4d51552d1ad74b876aea6a7ccb83f628  lsb-base_11.1.0ubuntu2_all.deb
       085abfef45c0aba423c522c26bc583a2c1b24efbf8983e2a782904cca71d05b2  lsb-release_11.1.0ubuntu2_all.deb
+      f149a5b7a0d1679e2212ec1de8bac2915feec66efdc368a3821d2eda0e817eaa  lz4_1.9.2-2ubuntu0.20.04.1_amd64.deb
       1ffa955ebb58829f3ab0debf7ad57b150887f6a44769edbaef68b8da9d95f306  m4_1.4.18-4_amd64.deb
       41e534af98cdb6219bc98fa4276d9c928a0862b8b373d49ee1fbe0ae5db64dc2  make_4.2.1-1.2_amd64.deb
       79cb23a9c68a8e84db2788f821f4c85855f5bda8f56cf8d9e64fabe4593daced  mawk_1.3.4.20200120-2_amd64.deb
@@ -330,6 +341,7 @@
       26081784b2919bd1d45e7db86994614bf1aa59f9bf1c65f78267411a13900170  tzdata_2023d-0ubuntu0.20.04_all.deb
       2684fae16e90a9ff3cb4dc08a8af5bd9973d38763b60e5f458dea0b403a39788  ubuntu-keyring_2020.02.11.4_all.deb
       0fd6782ac99f3d9814960edefd5cceaa84f3a33feec6a149f7edf59431f3a3ac  ucf_3.0038+nmu1_all.deb
+      3043c3389d7b852616e99b1d567b23c593a481013b6dda721af080e105aace75  udev_245.4-4ubuntu3.23_amd64.deb
       cff36f0662e137a8bbd0554c8b7be8fcb3870233659d10166b6a51f828e4bfed  util-linux_2.34-0.1ubuntu9.4_amd64.deb
       9a656b8746a59983c1ddfc802f664af302161980b6b03353c5fea3e32cb65959  wget_1.20.3-1ubuntu2_amd64.deb
       400d31b11a7d3a71e1dfed5a50db8c27af3a4b3889efc7e2569e25db84a33b28  wireless-regdb_2022.06.06-0ubuntu1~20.04.1_all.deb
