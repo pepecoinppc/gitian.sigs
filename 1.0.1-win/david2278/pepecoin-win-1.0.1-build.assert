@@ -229,13 +229,13 @@
       b5e37d1ec9d1162a24a055a7fa15788617b106742622a49cf2a7b048d7259209  linux-base_4.5ubuntu3.7_all.deb
       d8b92237a0ef76127f151e56f18ebc00155c5b39897c5db7e801ee8af660cbfb  linux-firmware_1.187.39_all.deb
       0db1ce03dbe71ae2e343cc63ba40663006f676f64ed8a14ac4c66e29e57eb41e  linux-image-5.4.0-169-generic_5.4.0-169.187_amd64.deb
-      1afeae8e0c91df324cca9c0cd898a0377fec5abb5ab26d626e1f07a1c8c2ef6c  linux-image-5.4.0-181-generic_5.4.0-181.201_amd64.deb
-      05cd4521a2cc9bc9121367a3cf2e1f887364a02c422be9c438ed0c165977f08f  linux-image-generic_5.4.0.181.179_amd64.deb
-      b95590a8cc18432c43a2acb90c7f1d1a64c165dfe3226b3ceaf7576b14c3d28a  linux-libc-dev_5.4.0-181.201_amd64.deb
+      a8d82104e660659372f7bb039649b4d1b2fec9278637ee3d9a82088c7f8c2f31  linux-image-5.4.0-182-generic_5.4.0-182.202_amd64.deb
+      7530beeec097ac287b759f7111b18694c7719e51b1eda0de576f281f55051f02  linux-image-generic_5.4.0.182.180_amd64.deb
+      767da08dccfe57c56467455b05b47f84219e8ab9357eacbfb5b46ac2bf137bfe  linux-libc-dev_5.4.0-182.202_amd64.deb
       a4992c42b0d928c3e3806ba908908c92bc6484d42fa78752e7f543f395655174  linux-modules-5.4.0-169-generic_5.4.0-169.187_amd64.deb
-      e89bd2b63c7a0527c4ca06c377e951590fec81fe577d158b4d387988a7efbcb8  linux-modules-5.4.0-181-generic_5.4.0-181.201_amd64.deb
+      1d1f10c489278284ec68ef41156a3c8cf6a74039065cf84ac62b8f18a8c7f639  linux-modules-5.4.0-182-generic_5.4.0-182.202_amd64.deb
       9b81889ee62b922dd12b21d3770d54c1435cae847b8bd5392830ca636ae935c7  linux-modules-extra-5.4.0-169-generic_5.4.0-169.187_amd64.deb
-      e278e89ad54a30fef8002cd341e7995b5626e1b6e1545d64b8896cb5b844785a  linux-modules-extra-5.4.0-181-generic_5.4.0-181.201_amd64.deb
+      87a3baf0fdd7f4b19519c560be99a9e3ab7491e0eeda1aad8c1fc21fdae6d4c1  linux-modules-extra-5.4.0-182-generic_5.4.0-182.202_amd64.deb
       be8fb490396a8610d45c094b3fb0ae0629c126b1bf67e70471b53a4c29f02725  locales_2.31-0ubuntu9.15_all.deb
       78ccbf6dd38c2e1d8b6da817781798cd8f2b83dfc7bf9b8b8d3e1436e2b18269  login_1%3a4.8.1-1ubuntu5.20.04.5_amd64.deb
       96a173aa14bdb659ae7b3c1230401c10752b810dfbdcc3b10c7cd79be1313c9c  logsave_1.45.5-2ubuntu1.1_amd64.deb
@@ -411,7 +411,7 @@
     bdb16bf9d1643c1c7cbe3e78b3180d77448a2201ec4bc43300e5e92b8e9a25a8  x86_64-w64-mingw32/zeromq/zeromq-4.3.4-7ff7973b77f.tar.gz.hash
     710b1908d5487951bdbe8bc0ef8d0cf2d30aa523d610f0a385ba487e6fabada2  x86_64-w64-mingw32/zlib/zlib-1.2.13-4af3a39de92.tar.gz
     1cd36ede0e8ade298a2f9980810acc30c9b0d9c7fce9faf98dca5235107be271  x86_64-w64-mingw32/zlib/zlib-1.2.13-4af3a39de92.tar.gz.hash
-- release: master-win
+- release: v1.0.1-win
 - name: pepecoin-win-1.0.1
 - type: build
 - optionals: 
